@@ -1,0 +1,110 @@
+<html>
+
+<head>
+    <title>Gracias</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="favicon.jpg">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+      * {
+        font-family: 'Nunito', sans-serif;
+      }
+      
+        header {
+          font-family: 'Nunito', sans-serif;
+          background:"fundo.png";
+          background-repeat: no-repeat;
+        }
+        *, *::before, *::after {
+          box-sizing: border-box;
+        }
+        
+        body {
+          
+          padding: 0;
+          margin: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100vw;
+          height: 100vh;
+          background: url("fundo.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        .container {
+          width: 700px;
+          max-width: 90%;
+        }
+        .black {
+          background-color: black;
+          padding: 10px;
+          text-align: center;
+          border-radius: 20px;
+          box-shadow: 0 1rem 3rem rgba(0,0,0,1)!important;
+        }
+        .answer {
+          display: grid;
+          grid-template-columns: repeat(2, auto);
+          gap: 10px;
+        }
+        @media (max-width: 991px) {
+          .answer {
+            display: grid;
+            grid-template-columns: repeat(1, auto);
+            gap: 10px;
+          }
+        }
+        .btn {
+    
+          border-radius: 10px;
+          padding: 5px 10px;
+          font-size: 30px;
+          background-color: #1cf28c;
+          outline: none;
+          text-decoration: none;
+          color: black;
+        }
+        .black h1 {
+          color: white;
+        }
+        .black p {
+          font-size: 18px;
+          color: white;
+        }
+        .hide {
+          display: none;
+        }
+      </style>
+
+
+    <!-- Meta Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '385054657110684');
+    fbq('track', 'Purchase', {value: 25.00, currency: 'USD'});
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=385054657110684&ev=Purchase&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+
+</head>
+
+<body>
+    <div class="container">
+        <p style="text-align: center; font-weight: bold; font-size: 24px;">Le enviaremos acceso a Videos Rentables en el correo electrónico registrado dentro de las 24 horas. ¡Gracias!</p>
+    </div>
+</body>
+
+</html>
